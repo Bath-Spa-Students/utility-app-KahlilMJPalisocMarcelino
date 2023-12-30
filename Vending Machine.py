@@ -22,8 +22,8 @@ items = {
             '20': {'name': 'Emirates Pofaki','price': 1.75, 'stock': 12}
         }
 # Display available items and prices
-print("Welcome to a typical UAE Vending Machine:")
-print("Select An Item/s:")
+print("-------Welcome to a typical UAE Vending Machine:-------")
+print("-------Select An Item/s:-------")
 
 for key, item in items.items():
     print(f"{key}. {item['name']} - AED{item['price']}")
